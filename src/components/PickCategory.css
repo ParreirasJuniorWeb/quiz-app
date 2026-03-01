@@ -1,0 +1,65 @@
+#category {
+    text-align: center;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+
+#category h2,
+#category p {
+    margin-bottom: 2rem;
+}
+
+#category p {
+    color: #8435de;
+    font-size: 1.2rem;
+}
+
+#category button {
+    align-self: center;
+    margin: 1rem;
+}
+
+#category img {
+    margin-top: 2rem;
+    width: 200px;
+    object-fit: cover;
+    object-position: center;
+    align-self: center;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    width: 1000px;
+    align-self: center;
+}
+
+.cards-container div {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 250px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    color: #8435de;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 3.4px;
+    text-align: center;
+    text-wrap: nowrap;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cards-container div:hover {
+    transform: translateY(-7px) scale(1.05);
+}
+
+#btnMist {
+    min-width: 200px;
+}

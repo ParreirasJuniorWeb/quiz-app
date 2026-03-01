@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+body,
+html {
+    min-height: 100vh;
+    height: 100%;
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: .8rem 1.5rem;
+    border: none;
+    border-radius: 3rem;
+    outline: none;
+    transition: .5s ease-in-out;
+    background: linear-gradient(90deg, rgba(132, 53, 222, 1) 0%, rgba(184, 84, 232, 1) 100%);
+}
+
+button:hover {
+    background: linear-gradient(90deg, rgba(184, 84, 232, 1) 0%, rgba(132, 53, 222, 1) 100%);
+}
